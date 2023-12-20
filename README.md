@@ -1,5 +1,5 @@
 
-# Google Sheets Dynamic Dashboard with App Script
+# Google Dynamic Spreadsheet with App Script
 
 The ultimate goal of this project was to create a dynamic dashboard that updates in real-time as new data is added to a particular Google Sheets document. This was achieved through the implementation of custom menu options, such as "Update Dashboard" and "Run Script."
 
