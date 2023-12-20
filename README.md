@@ -54,7 +54,7 @@ if (isNaN(oneValue)) {
 }
 
 sheet.getRange(activeCell.getRow(), sheet.getLastColumn()).setValue(oneValue + 1); // Increment "One" value
-
+```
 
 ### UpdateSum Function
 
