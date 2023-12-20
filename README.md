@@ -48,12 +48,7 @@ sheet.getRange(row, col - 1).setValue(currentTime); // Time goes to the column b
 The line sheet.getRange(activeCell.getRow() + 1, sheet.getLastColumn()).setValue(''); is used to clear the contents of the cell in the next row of the last column. This line is added as part of the runScript function to clear the total sum value in the next row before updating it with the new sum.
 
 ```javascript
-var oneValue = sheet.getRange(activeCell.getRow(), sheet.getLastColumn()).getValue();
-if (isNaN(oneValue)) {
-  oneValue = 0;
-}
-
-sheet.getRange(activeCell.getRow(), sheet.getLastColumn()).setValue(oneValue + 1); // Increment "One" value
+sheet.getRange(activeCell.getRow() + 1, sheet.getLastColumn()).setValue('');
 ```
 
 ### UpdateSum Function
